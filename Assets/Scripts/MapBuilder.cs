@@ -22,7 +22,8 @@ public class MapBuilder : MonoBehaviour
     private int _chanceSum;
     private int _zPozition;
     private bool _moveDirection;
-    private int _randomPositionNumber; 
+    private int _randomPositionNumber;
+    private bool _isLilyPadCreated;
     private GameObject _pathType;
     private List<Path> _currentPaths;
     
@@ -73,6 +74,7 @@ public class MapBuilder : MonoBehaviour
         switch (_pathType.name)
             {
                 case PathNames.Grass:
+                    _isLilyPadCreated = false;
                     for (int j = 0; j < _forestDecorations.Length; j++)
                     {
                         _currentDecoration = _forestDecorations[j];
@@ -80,16 +82,25 @@ public class MapBuilder : MonoBehaviour
                     }
                     break;
                 case PathNames.Road:
+                    _isLilyPadCreated = false;
                     _currentDecoration = _vehicles[Random.Range(0, _vehicles.Length)];
                     GenerateDecoration(terrainPath);
                     break;
                 case PathNames.Water:
-                    _currentDecoration = _waterDecorations[Random.Range(0, _waterDecorations.Length)];
-                    /*if (_currentDecoration.name.Equals(_currentPaths[_currentPaths.Count - 2].DecorationType))
+                    if (!_isLilyPadCreated)
                     {
-                        _currentDecoration = _waterDecorations;
-                    }*/
-                    GenerateDecoration(terrainPath);
+                        _currentDecoration = _waterDecorations[Random.Range(0, _waterDecorations.Length)];
+                        if (_currentDecoration.name.Equals(DecorationNames.LilyPad))
+                        {
+                            _isLilyPadCreated = true;
+                        }
+                        GenerateDecoration(terrainPath);  
+                    }
+                    else
+                    {
+                        _currentDecoration = _waterDecorations[Random.Range(1, _waterDecorations.Length)];
+                        GenerateDecoration(terrainPath); 
+                    }
                     break;
                 case PathNames.Rail:
                     _currentDecoration = _trains[Random.Range(0, _trains.Length)];

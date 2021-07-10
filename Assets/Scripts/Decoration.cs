@@ -4,22 +4,22 @@ using UnityEngine;
 
 public class Decoration
 {
-    private string _name;
+    //private string _name;
     private int _position;
     private bool _occupation;
 
     public Decoration(string name, int position, bool occupation)
     {
-        _name = name;
+        //_name = name;
         _position = position;
         _occupation = occupation;
     }
 
-    public string Name
+    /*public string Name
     {
         get => _name;
         set => _name = value;
-    }
+    }*/
 
     public int Position
     {

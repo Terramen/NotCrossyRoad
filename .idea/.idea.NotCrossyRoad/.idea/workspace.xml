@@ -20,27 +20,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da2b2a80-4232-4a20-84d6-a0450b822072" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Grass.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Grass.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Water.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Water.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Grass.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Grass.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Rail.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Rail.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Road.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Road.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Terrains/OneRoadOneGrass.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Terrains/OneRoadOneGrass.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Terrains/OneRoadOneRail.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Terrains/OneRoadOneRail.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Terrains/TwoRoadOneGrass.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Terrains/TwoRoadOneGrass.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Water.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Water.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.NotCrossyRoad/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NotCrossyRoad/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LilyPad.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/LilyPad.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Logs.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Logs.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Stone.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Stone.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Terrains/Water.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Terrains/Water.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Train.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Train.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Tree.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Tree.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/VehiclePurple.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/VehiclePurple.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/VehicleRed.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/VehicleRed.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/VehicleYellow.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/VehicleYellow.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Decoration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Decoration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Map.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Map.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/MapBuilder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MapBuilder.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Path.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Path.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Randomizer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Randomizer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,11 +64,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/TerrainType.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PathNames.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DecorationMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Decoration.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DecorationNames.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Decoration.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Map.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Path.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MapBuilder.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Path.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
       </list>
     </option>
@@ -123,7 +119,10 @@
       <workItem from="1625417179059" duration="7271000" />
       <workItem from="1625472072854" duration="10215000" />
       <workItem from="1625585852316" duration="9538000" />
-      <workItem from="1625641944149" duration="16816000" />
+      <workItem from="1625641944149" duration="20519000" />
+      <workItem from="1625728777428" duration="4564000" />
+      <workItem from="1625815119270" duration="3108000" />
+      <workItem from="1625904224127" duration="594000" />
     </task>
     <servers />
   </component>

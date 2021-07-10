@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2115197637690602772}
   - component: {fileID: 5385070297687082106}
   - component: {fileID: -2063974131935820650}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Train
   m_TagString: Untagged
   m_Icon: {fileID: 0}

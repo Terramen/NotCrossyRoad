@@ -36,7 +36,7 @@ public class Path : MonoBehaviour
             if (position.Equals(_points[i].Position))
             {
                 _points[i].Occupation = true;
-                _points[i].Name = decorationName;
+                //_points[i].Name = decorationName;
             }
         }
     }

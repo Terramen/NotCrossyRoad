@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -84,8 +85,37 @@ public class PlayerMovement : MonoBehaviour
 
     private void Move(float x, float y, float z)
     {
+        CheckNextStep();
         gameObject.transform.position = new Vector3(x, y, z);
     }
-    
-    
+
+    private void CheckNextStep()
+    {
+        
+    }
+
+    /*private void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject.layer == 8)
+        {
+            gameObject.transform.position = other.transform.position;
+        }
+    }*/
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.layer == 8)
+        {
+            gameObject.transform.parent = other.transform;
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.layer == 8)
+        {
+            gameObject.transform.parent = null;
+            Move(Mathf.Round(transform.position.x), transform.position.y, transform.position.z);
+        }
+    }
 }

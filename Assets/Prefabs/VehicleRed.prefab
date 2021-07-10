@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7042420531524500056}
   - component: {fileID: 6091330967074623170}
   - component: {fileID: -2354455477983401008}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: VehicleRed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
