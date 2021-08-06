@@ -108,5 +108,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ccfd523cb42c75498a12db1d78f16db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxDecorationCount: 4
+  maxDecorationCount: 6
   minDecorationCount: 0
+  _pathNames: 1

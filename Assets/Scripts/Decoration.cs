@@ -4,22 +4,16 @@ using UnityEngine;
 
 public class Decoration
 {
-    //private string _name;
     private int _position;
     private bool _occupation;
+    private int _layer;
 
-    public Decoration(string name, int position, bool occupation)
+    public Decoration(int position, bool occupation, int layer)
     {
-        //_name = name;
         _position = position;
         _occupation = occupation;
+        _layer = layer;
     }
-
-    /*public string Name
-    {
-        get => _name;
-        set => _name = value;
-    }*/
 
     public int Position
     {
@@ -31,5 +25,16 @@ public class Decoration
     {
         get => _occupation;
         set => _occupation = value;
+    }
+
+    public int Layer
+    {
+        get => _layer;
+        set => _layer = value;
+    }
+
+    public override string ToString()
+    {
+        return $"{nameof(Position)}: {Position}, {nameof(Occupation)}: {Occupation}, {nameof(Layer)}: {Layer}";
     }
 }

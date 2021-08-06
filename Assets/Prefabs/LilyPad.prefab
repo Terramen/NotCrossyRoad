@@ -113,3 +113,4 @@ MonoBehaviour:
   _timeDifficultyMultiplier: 0
   _delay: 0
   _multipleDecoration: 0
+  _decorationName: 1

@@ -12,6 +12,7 @@ public class DecorationMovement : MonoBehaviour
     [SerializeField] private float _timeDifficultyMultiplier;
     [SerializeField] private float _delay;
     [SerializeField] private bool _multipleDecoration;
+    [SerializeField] private DecorationNames _decorationName;
 
     private List<Transform> _childDecorationsTransform;
 
@@ -34,6 +35,8 @@ public class DecorationMovement : MonoBehaviour
         set => _multipleDecoration = value;
     }
 
+    public DecorationNames DecorationName => _decorationName;
+
     private void Update()
     {
         if (_multipleDecoration)
@@ -49,24 +52,32 @@ public class DecorationMovement : MonoBehaviour
         }
     }
     
+    public GameObject DisableDecoration()
+    {
+        gameObject.SetActive(false);
+        return gameObject;
+    }
+    
     
 
     IEnumerator RespawnDelay(int size, Transform decorationTransform)
     {
         yield return new WaitForSeconds(_delay);
-        decorationTransform.position = new Vector3( size, decorationTransform.position.y, decorationTransform.position.z);
+        decorationTransform.position = new Vector3( size,
+            decorationTransform.position.y, decorationTransform.position.z);
     }
 
     private void Move(Transform decorationTransform)
     {
-        decorationTransform.position = new Vector3( decorationTransform.position.x + Time.deltaTime * Speed, decorationTransform.position.y, decorationTransform.position.z);
-        if (Speed > 0 && decorationTransform.position.x > Map.FieldSize)
+        decorationTransform.position = new Vector3( decorationTransform.position.x + Time.deltaTime * Speed,
+            decorationTransform.position.y, decorationTransform.position.z);
+        if (Speed > 0 && decorationTransform.position.x > Map.FIELDSIZE)
         {
-            StartCoroutine(RespawnDelay(-Map.FieldSize, decorationTransform));
+            StartCoroutine(RespawnDelay(-Map.FIELDSIZE, decorationTransform));
         }
-        if (Speed < 0 && decorationTransform.position.x < -Map.FieldSize)
+        if (Speed < 0 && decorationTransform.position.x < -Map.FIELDSIZE)
         {
-            StartCoroutine(RespawnDelay(Map.FieldSize, decorationTransform));
+            StartCoroutine(RespawnDelay(Map.FIELDSIZE, decorationTransform));
         }
     }
 }

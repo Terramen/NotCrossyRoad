@@ -9,36 +9,55 @@ public class Path : MonoBehaviour
 {
     public int maxDecorationCount;
     public int minDecorationCount;
-    private string title;
     private List<Decoration> _points;
-    private string decorationType;
+    private List<DecorationMovement> activeDecorations;
+    
+    [SerializeField] private PathNames _pathNames;
 
-    public string DecorationType
-    {
-        get => decorationType;
-        set => decorationType = value;
-    }
+    public PathNames PathNames => _pathNames;
+    public List<DecorationMovement> ActiveDecorations => activeDecorations;
 
     private void Awake()
     {
-        
-        _points = new List<Decoration>();
-        for (int i = -Map.FieldSize; i <= Map.FieldSize; i++)
-        {
-            _points.Add(new Decoration("None", i, false));
-        }
+        activeDecorations = new List<DecorationMovement>();
     }
 
-    public void RemovePoint(string decorationName, int position)
+    public GameObject DisablePath()
+    {
+        gameObject.SetActive(false);
+        return gameObject;
+    }
+
+    public void AddActiveDecoration(DecorationMovement decoration)
+    {
+        activeDecorations.Add(decoration);
+    }
+
+    public void RemovePoint(int position, int layer)
     {
         for (int i = 0; i < _points.Count; i++)
         {
             if (position.Equals(_points[i].Position))
             {
                 _points[i].Occupation = true;
-                //_points[i].Name = decorationName;
+                _points[i].Layer = layer;
             }
         }
+    }
+
+    public void Init(int range)
+    {
+        _points = new List<Decoration>();
+        for (int i = -range; i <= range; i++)
+        {
+            _points.Add(new Decoration(i, false, 0));
+        }
+    }
+
+    public void ClearDecorations()
+    {
+        _points.Clear();
+        activeDecorations.Clear();
     }
 
     public int GetPoint()
@@ -46,8 +65,19 @@ public class Path : MonoBehaviour
         return _points[Random.Range(0, _points.Count)].Position;
     }
 
-    public bool CheckPoint(int position)
+    public bool GetOccupation(int position)
     {
         return _points.Find(x => x.Position == position).Occupation;
     }
+    
+    public int GetLayer(int position)
+    {
+        return _points.Find(x => x.Position == position).Layer;
+    }
+    
+}
+
+public enum DecorationNames
+{
+    NONE, LILYPAD, LOGS, STONE, TREE, TRAIN, VEHICLE_PURPLE, VEHICLE_RED, VEHICLE_YELLOW
 }

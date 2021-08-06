@@ -20,10 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da2b2a80-4232-4a20-84d6-a0450b822072" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.NotCrossyRoad/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NotCrossyRoad/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NotCrossyRoad/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NotCrossyRoad/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LilyPad.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/LilyPad.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Logs.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Logs.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Stone.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Stone.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Terrains/Grass.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Terrains/Grass.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Terrains/Rail.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Terrains/Rail.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Terrains/Road.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Terrains/Road.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Terrains/Water.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Terrains/Water.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Train.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Train.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Tree.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Tree.prefab" afterDir="false" />
@@ -32,10 +36,16 @@
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/VehicleYellow.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/VehicleYellow.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Decoration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Decoration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DecorationMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DecorationMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DecorationNames.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DecorationNames.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Map.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Map.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/MapBuilder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MapBuilder.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Path.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Path.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PathNames.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PathNames.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,13 +58,20 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E81851A0-DC73-4A79-AFA9-F5B7273162BE/3b/0579fb68/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Path.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PathNames.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DecorationMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E81851A0-DC73-4A79-AFA9-F5B7273162BE/6b/6a579492/Func`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SwipeDetector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MathParabola.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E414E10B-FE5F-4572-9FF1-22F3359DE21B/bf/dc723571/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScoreCounter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PrefabPooling.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Path.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E414E10B-FE5F-4572-9FF1-22F3359DE21B/fc/d2d224c8/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DecorationMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E414E10B-FE5F-4572-9FF1-22F3359DE21B/16/c3159a98/Ray.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Decoration.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DecorationNames.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FPSCounter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/998F2491-CDE6-4F39-9B36-14F82C288B4F/0e/f2295626/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E414E10B-FE5F-4572-9FF1-22F3359DE21B/99/dbf38612/Vector3.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -63,13 +80,21 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Field.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TerrainType.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PathNames.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/DecorationMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SwipeDrawer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SwipeLogger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SwipeDetector.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MathParabola.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScoreCounter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Map.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DecorationNames.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Decoration.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Map.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MapBuilder.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DecorationMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PrefabPooling.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Path.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MapBuilder.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FPSCounter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" />
       </list>
     </option>
   </component>
@@ -122,7 +147,32 @@
       <workItem from="1625641944149" duration="20519000" />
       <workItem from="1625728777428" duration="4564000" />
       <workItem from="1625815119270" duration="3108000" />
-      <workItem from="1625904224127" duration="594000" />
+      <workItem from="1625904224127" duration="1197000" />
+      <workItem from="1626015621772" duration="10991000" />
+      <workItem from="1626080265708" duration="5249000" />
+      <workItem from="1626177448988" duration="5246000" />
+      <workItem from="1626248061121" duration="7206000" />
+      <workItem from="1626334903034" duration="9702000" />
+      <workItem from="1626419653444" duration="2800000" />
+      <workItem from="1626683449763" duration="14286000" />
+      <workItem from="1626784609725" duration="3175000" />
+      <workItem from="1626816640233" duration="594000" />
+      <workItem from="1626858900967" duration="11335000" />
+      <workItem from="1626938171820" duration="28524000" />
+      <workItem from="1627022750698" duration="12360000" />
+      <workItem from="1627121369255" duration="4897000" />
+      <workItem from="1627140684822" duration="3343000" />
+      <workItem from="1627200097640" duration="4957000" />
+      <workItem from="1627291968229" duration="5670000" />
+      <workItem from="1627373195123" duration="1647000" />
+      <workItem from="1627462011854" duration="6974000" />
+      <workItem from="1627626407808" duration="3249000" />
+      <workItem from="1627805358494" duration="1664000" />
+      <workItem from="1627890925999" duration="15447000" />
+      <workItem from="1627981114369" duration="6359000" />
+      <workItem from="1628060742534" duration="4521000" />
+      <workItem from="1628147746213" duration="10381000" />
+      <workItem from="1628236237955" duration="680000" />
     </task>
     <servers />
   </component>
@@ -147,17 +197,27 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2590" y="198" key="RiderGenerateDialog" timestamp="1625603227902">
+    <state x="2590" y="198" key="RiderGenerateDialog" timestamp="1627917848777">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2590" y="198" key="RiderGenerateDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1625603227902" />
-    <state x="2012" y="92" width="1736" height="856" key="VCS.FileHistoryDialog" timestamp="1625075938640">
+    <state x="670" y="198" key="RiderGenerateDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1626967676492" />
+    <state x="2590" y="198" key="RiderGenerateDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1627917848777" />
+    <state x="2012" y="92" width="1736" height="856" key="VCS.FileHistoryDialog" timestamp="1627396644539">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2012" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1625075938640" />
+    <state x="2012" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1627396644539" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1626016587198">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1626016587198" />
     <state x="2558" y="253" width="644" height="534" key="find.popup" timestamp="1625654605165">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2558" y="253" width="644" height="534" key="find.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1625654605165" />
+    <state x="2542" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1627999340837">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="622" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1626969257629" />
+    <state x="2542" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1627999340837" />
   </component>
 </project>

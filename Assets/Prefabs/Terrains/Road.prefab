@@ -110,3 +110,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxDecorationCount: 1
   minDecorationCount: 1
+  _pathNames: 2
